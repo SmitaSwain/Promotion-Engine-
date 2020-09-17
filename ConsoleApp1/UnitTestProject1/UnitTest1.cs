@@ -13,6 +13,7 @@ namespace UnitTestProject1
             Program p = new Program();
             int total = p.CalculateTotal(1, 1, 1, 0);
             Assert.AreEqual(100, total);
+
         }
     }
 }
